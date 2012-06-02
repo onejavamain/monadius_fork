@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf8"?>
+<article lang="ru">
+<articleinfo>
+<title>Моя первая статья</title>
+<author>
+<firstname>Фамбулов</firstname>
+<surname>Алексей</surname>
+</author>
+<copyright>
+<year>2012</year>
+<holder>Фамбулов Алексей</holder>
+</copyright>
+</articleinfo>
+<para>
+Тестовое упражнение по docbook
+</para>
+<section>
+<title>Заголовок первого раздела</title>
+<para>
+Мой первый абзац первого раздела
+</para>
+</section>
+</article>
