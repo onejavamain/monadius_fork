@@ -1,0 +1,10 @@
+Version of workspace file format:
+               1
+Time of storage:
+               "Sun Jun  3 03:42:32 \9492\1025\1088\1089\1105\1098\1102\1093 \1090\1025\1093\1100\160 (\1095\1096\1100\1088) 2012"
+Name of the workspace:
+               "workdir"
+File paths of contained packages:
+               ["mymonadius\\mymonadius.cabal"]
+Maybe file path of an active package:
+               Just "mymonadius\\mymonadius.cabal"

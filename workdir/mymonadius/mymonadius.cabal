@@ -1,0 +1,26 @@
+name: mymonadius
+version: 0.0.1
+cabal-version: >=1.2
+build-type: Simple
+license: AllRightsReserved
+license-file: ""
+description: проект по конвертации проекта monadius
+data-dir: ""
+extra-source-files: ""
+
+
+executable mymonadius
+    build-depends: QuickCheck -any,directory, OpenGL, base -any , array -any, process -any, GLUT -any
+    main-is: Main.hs
+    buildable: True
+    hs-source-dirs: src
+    C-Sources:    src/stub.c
+
+
+test-suite test-mymonadius
+    build-depends: QuickCheck -any,directory, OpenGL, base -any , array -any, process -any, GLUT -any
+    type: exitcode-stdio-1.0
+    main-is: Main.hs
+    buildable: True
+    cpp-options:
+    hs-source-dirs: src
